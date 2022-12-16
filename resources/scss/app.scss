@@ -1,1 +1,93 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+header {
+    background-color: white;
+    padding: 1rem 0;
+
+    .logo {
+        img {
+            height: 70px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            a {
+                padding: 2rem;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 500;
+                color: $dc-dark;
+
+                &:hover {
+                    color: $dc-primary;
+                    border-bottom: 4px solid $dc-primary;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .top {
+        background-image: url('../assets/img/footer-bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .container {
+            background-image: url('../assets/img/dc-logo-bg.png');
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            margin: 1rem 0;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1rem;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $dc-light-dark;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        background-color: $dc-dark;
+        padding: 1rem;
+
+        .btn.btn-primary {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border: 1px solid $dc-primary;
+            text-transform: uppercase;
+            color: $dc-light;
+            text-decoration: none;
+
+            &:hover {
+                background-color: $dc-primary;
+            }
+        }
+
+        .social {
+            display: flex;
+            align-items: center;
+            column-gap: 0.5rem;
+
+            h3 {
+                color: $dc-primary;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

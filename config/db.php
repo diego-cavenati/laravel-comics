@@ -213,5 +213,48 @@ return [
                 "Joëlle Jones"
             ],
         ]
-    ]
+    ],
+    'menu' => [
+        [
+            "text" => "Characters",
+            "href" => "#",
+        ],
+        [
+            "text" => "Comics",
+            "href" => "#",
+        ],
+        [
+            "text" => "Movies",
+            "href" => "#",
+        ],
+        [
+            "text" => "TV",
+            "href" => "#",
+        ],
+        [
+            "text" => "Games",
+            "href" => "#",
+        ],
+        [
+            "text" => "Collectibles",
+            "href" => "#",
+        ],
+        [
+            "text" => "Video",
+            "href" => "#",
+        ],
+        [
+            "text" => "Fans",
+            "href" => "#",
+        ],
+        [
+            "text" => "News",
+            "href" => "#",
+        ],
+        [
+            "text" => "Shop",
+            "href" => "#",
+        ],
+    ],
+
 ];

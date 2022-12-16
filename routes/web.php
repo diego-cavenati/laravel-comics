@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // $menu_links = config('db.menu');
+
     return view('welcome');
-});
+})->name('home');
+
+Route::get('/partials/header', function () {
+    $menu_links = config('db.menu');
+
+    return view('header', $menu_links);
+})->name('header');
