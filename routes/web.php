@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // $menu_links = config('db.menu');
+    $comics = config('db.comics');
 
-    return view('welcome');
+    return view('welcome', ['comics' => $comics]);
 })->name('home');
 
-Route::get('/partials/header', function () {
-    $menu_links = config('db.menu');
+// Route::get('/partials/header', function () {
+//     $menu_links = config('db.menu');
 
-    return view('header', $menu_links);
-})->name('header');
+//     return view('header', ['menu_links' => $menu_links]);
+// })->name('header');

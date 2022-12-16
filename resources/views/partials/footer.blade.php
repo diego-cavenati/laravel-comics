@@ -102,11 +102,11 @@
             </div>
             <div class="social">
                 <h3>Follow us</h3>
-                <img src="../assets/img/footer-facebook_.png" alt="">
-                <img src="../assets/img/footer-twitter_.png" alt="">
-                <img src="../assets/img/footer-youtube.png" alt="">
-                <img src="../assets/img/footer-pinterest.png" alt="">
-                <img src="../assets/img/footer-periscope.png" alt="">
+                <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" alt="">
+                <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" alt="">
+                <img src="{{ Vite::asset('resources/img/footer-youtube.png')}}" alt="">
+                <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
+                <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}" alt="">
             </div>
         </div>
 

@@ -5,7 +5,7 @@
                 <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="">
             </div>
             <ul class="main-menu">
-                @foreach($menu_links as $voice)
+                @foreach(Config::get('db.menu') as $voice)
                 <li>
                     <a href="{{$voice['href']}}">{{ $voice['text'] }}</a>
                 </li>

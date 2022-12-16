@@ -256,5 +256,26 @@ return [
             "href" => "#",
         ],
     ],
-
+    'items' => [
+        [
+            "icon" => "buy-comics-digital-comics.png",
+            "text" => "Digital Comics",
+        ],
+        [
+            "icon" => "buy-comics-merchandise.png",
+            "text" => "DC Merchandise",
+        ],
+        [
+            "icon" => "buy-comics-shop-locator.png",
+            "text" => "Subscriptions",
+        ],
+        [
+            "icon" => "buy-comics-subscriptions.png",
+            "text" => "Comic Shop Locator",
+        ],
+        [
+            "icon" => "buy-dc-power-visa.svg",
+            "text" => "Dc per visa",
+        ],
+    ],
 ];
